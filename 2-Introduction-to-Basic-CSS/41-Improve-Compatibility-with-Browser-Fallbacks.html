@@ -1,0 +1,14 @@
+/*In this lesson we learned about how to improve browser compatibility with fallbacks,
+so a brower like IE will have something to display other than the defualt.*/
+<style>
+  :root {
+    --red-color: red;
+  }
+  .red-box {
+    background: red;
+    background: var(--red-color);
+    height: 200px;
+    width:200px;
+  }
+</style>
+<div class="red-box"></div>
